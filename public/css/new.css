@@ -1,0 +1,112 @@
+.main-ctn-bg{
+  background-color: #ecf0f5;
+}
+.b-top{
+  border-top: 3px solid #3c8dbc;
+}
+.custom{
+  color: #3c8dbc;
+}
+.bg-custom {
+  background-color: #3c8dbc;
+}
+.bg-gradient-custom {
+  background-color: #3c8dbc;
+  background-image: linear-gradient(180deg, #3cc8be 10%, #3c8dbc 100%);
+  background-size: cover;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #3c8dbc;
+  border-color: #3c8dbc;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #366cac;
+  border-color: #366cac;
+}
+
+.btn-custom:focus, .btn-custom.focus {
+  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.btn-custom.disabled, .btn-custom:disabled {
+  color: #fff;
+  background-color: #79bee7;
+  border-color: #79bee7;
+}
+
+.btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
+.show > .btn-custom.dropdown-toggle {
+  color: #fff;
+  background-color: #3c8dbc;
+  border-color: #3c8dbc;
+}
+
+.btn-custom:not(:disabled):not(.disabled):active:focus, .btn-custom:not(:disabled):not(.disabled).active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #858796;
+}
+/**/
+.custom-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #3a3b45;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.custom-item:hover, .custom-item:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/**/
+.btn-app{
+  border-radius:3px;
+  position:relative;
+  padding:15px 5px;
+  margin:0 0 10px 10px;
+  min-width:80px;
+  height:60px;
+  text-align:center;
+  color:#666;
+  border:1px solid #ddd;
+  background-color:#f4f4f4;
+  font-size:12px
+}
+.btn-app>.fa, .btn-app>.far, .btn-app>.fas, .btn-app>.glyphicon,.btn-app>.ion{
+  font-size:20px;
+  display:block
+}
+.btn-app:hover{
+  background:#f4f4f4;
+  color:#444;
+  border-color:#aaa
+}
+.btn-app:active,.btn-app:focus{
+  -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+  -moz-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+  box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.btn-app>.badge{
+  position:absolute;
+  top:-3px;
+  right:-10px;
+  font-size:10px;
+  font-weight:400
+}
+.w-p{
+  width: 90px;
+}

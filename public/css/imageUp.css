@@ -1,0 +1,28 @@
+form .da ol {
+  padding-left: 0;
+}
+
+form .da li, .da div > p {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+form .da img {
+  height: 64px;
+  order: 1;
+}
+
+form .da p {
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 32px;     /* fallback */
+  max-height: 40px;      /* fallback */
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}

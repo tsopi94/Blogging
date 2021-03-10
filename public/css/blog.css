@@ -1,0 +1,141 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+
+/*start styling the search input*/
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    text-align: center;
+    color: #aaa;
+}
+
+.has-search .form-control-feedback:focus {
+  box-shadow: none;
+}
+/*end*/
+
+/*start --from tinymce*/
+blockquote {
+  border-left: 3px solid green;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.125);
+  padding: .1rem .5rem .1rem .5rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*end --from tinymce*/
+
+.title:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .display {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .m-border-right {
+    border-right: 1px solid #dee2e6;
+  }
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 1.40rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+  color: rgb(7, 78, 106);
+}
+
+.blog-header-search {
+
+}
+
+.blog-btn-sm {
+  font-size: .975rem;
+  border-radius: 0.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.blog-mfs-sm {
+  font-size: .775rem;
+}
+
+.blog-pi-sm {
+  font-size: .886rem;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post-title {
+  margin-bottom: 0rem;
+  font-size: 1.7rem;
+}
+
+.blog-post-meta {
+  margin-bottom: .5rem;
+  color: #999 !important;
+  font-size: .875rem;
+}
+
+.blog-post-meta .tags a {
+  color: #999 !important;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: .5rem 0;
+  color: rgb(0,0,0);
+  font-size: .85rem;
+  text-align: center;
+  background-color: #fff;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
